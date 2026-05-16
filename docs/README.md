@@ -24,6 +24,73 @@ Each phase has defined objectives, activities, checklists, and decision gates to
 
 ---
 
+## OctoAcme Project Management Processes Overview
+
+### Phase 1: Project Initiation
+**Objective**: Validate the business need, align stakeholders, and authorize work to move into planning.
+
+The initiation phase focuses on confirming customer value and establishing a lightweight foundation:
+- Develop a Project One-pager articulating the problem, goal, and success metrics
+- Identify all stakeholders and communication needs
+- Create a high-level timeline and key milestones
+- Perform initial risk assessment
+- Define team roles and resource needs
+
+**Key Outcome**: Go/no-go decision to proceed to planning
+
+### Phase 2: Project Planning
+**Objective**: Turn an approved initiative into an actionable plan and prioritized backlog.
+
+Planning translates the vision into executable work:
+- Conduct project kickoff with delivery team and stakeholders
+- Break work into shippable increments with clear acceptance criteria
+- Estimate scope using T-shirt sizing or story points
+- Define Definition of Done (DoD) and quality standards
+- Map dependencies and integration points
+- Create release plan and milestone timeline
+
+**Key Outcome**: Prioritized backlog, release timeline, and team alignment
+
+### Phase 3: Execution & Tracking
+**Objective**: Manage day-to-day delivery, maintain quality, and track progress toward milestones.
+
+Execution emphasizes iterative delivery and continuous communication:
+- Daily standups focused on progress, blockers, and dependencies
+- Pull request workflow with CI/CD automation and code review
+- Continuous testing (unit, integration, end-to-end, security)
+- Weekly delivery sync to show progress and flag risks
+- Sprint demos and regular stakeholder communication
+- Blocker escalation through defined levels (team → PM → Product Lead → Sponsor)
+
+**Key Outcome**: Completed, tested, and reviewed increments ready for release
+
+### Phase 4: Release & Deployment
+**Objective**: Standardize releases to production to reduce risk and improve observability.
+
+Release processes ensure quality and minimize disruption:
+- Pre-release verification: all acceptance criteria met, CI passing, security scans complete
+- Release notes with summary of changes and migration steps
+- Deployment to staging with smoke tests
+- Production deployment via automated pipeline (preferred)
+- Post-deploy verification and stakeholder announcement
+- Rollback and incident playbook for critical issues
+
+**Key Outcome**: Features live in production with visibility and support readiness
+
+### Phase 5: Retrospective & Continuous Improvement
+**Objective**: Capture learnings and convert them into actionable improvements.
+
+Retrospectives drive organizational learning:
+- Structure: What went well, what could improve, action items with owners and due dates
+- Timebox for efficiency (45–75 minutes)
+- Prioritize 2–3 top improvements to avoid overload
+- Track action items in the backlog with clear success criteria
+- Celebrate wins and measure impact of improvements
+
+**Key Outcome**: Documented learnings and actionable improvements for next iterations
+
+---
+
 ## Documentation Index
 
 ### 📋 [Project Management Overview](./octoacme-project-management-overview.md)
